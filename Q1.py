@@ -12,4 +12,6 @@ def ping(server, cont=5):
     command = ['ping', '-c', str(cont), server]
     result = subprocess.run(command, shell=False, capture_output=True, text=True)
     print(result.stdout)
+
 ping("bing.com")
+ping("yahoo.com")

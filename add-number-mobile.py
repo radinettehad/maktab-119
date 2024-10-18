@@ -1,6 +1,6 @@
 list1 = [9121234567, 935123456]
 list2 = []
-
+x = 2
 for i in list1:
     if str(i)[0] != '0':
         modified_number = ('0' + str(i)[0:])

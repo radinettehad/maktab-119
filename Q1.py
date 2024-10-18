@@ -16,3 +16,4 @@ def ping(server, cont=5):
 ping("bing.com")
 ping("yahoo.com")
 ping("google.com")
+ping ("cnn.com")
